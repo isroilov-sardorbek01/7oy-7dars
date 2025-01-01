@@ -48,9 +48,19 @@ function Header() {
                             className={({ isActive }) =>
                                 isActive ? "active" : "nonactive"
                             }
-                            to="/inputcolot"
+                            to="/inputcolor"
                         >
                             InputColor
+                        </NavLink>
+                    </li>
+                    <li className="headLink">
+                        <NavLink
+                            className={({ isActive }) =>
+                                isActive ? "active" : "nonactive"
+                            }
+                            to="/task"
+                        >
+                            Task
                         </NavLink>
                     </li>
                 </ul>
